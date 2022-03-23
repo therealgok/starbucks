@@ -76,11 +76,16 @@ a{
     margin-right: 10px;
 }
 /* box */
+
 .box{
     margin-bottom: 30px;
 }
+
+.text-sm a:hover{
+    text-decoration: none;
+}
 .inner-box{
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -281,7 +286,7 @@ a{
 
 /* padding */
 .py-lg{
-    padding: 0 40px;
+    padding: 20px 10px;
 }
 .py-md{
     padding: 0 20px;
@@ -327,6 +332,12 @@ a{
         height: 40px;
         
     }
+    .box-a .text-sm{
+        font-size: 15px;
+        color: #000;
+        font-weight: 600;
+        line-height: 25px;
+    }
     .gird-col-2{
         grid-template-columns: 1fr;
     }
@@ -344,7 +355,7 @@ a{
         flex-direction: column;
     }
     .child-1{
-        margin-left: 0;
+        margin-left: -3px;
     }
     .text-foot{
         font-size: 13px;
